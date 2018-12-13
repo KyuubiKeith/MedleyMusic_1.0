@@ -1366,6 +1366,10 @@ li {
     overflow: hidden
 }
 
+.img-piano {
+    background-image: url(../../The_Elements/Images/piano.gif);
+}
+
 .person-block--highlights .person-block__img:before {
     content: '';
     position: absolute;
@@ -2110,7 +2114,7 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../svg/sold-out.svg);
+    background-image: url(../../The_Elements/Images/svg/sold-out.svg);
     position: absolute;
     top: 4rem;
     left: 0;
@@ -2223,7 +2227,7 @@ li {
     background-size: 10px 6px;
     background-position: 95% center;
     background-repeat: no-repeat;
-    background-image: url(../svg/mobile-arrow.svg)
+    background-image: url(../../The_Elements/Images/svg/mobile-arrow.svg)
 }
 
 @media only screen and (max-width: 767px) {
@@ -4157,7 +4161,7 @@ li {
 }
 
 .news__instrument--1 {
-    background-image: url(../images/instrumentas1.png);
+    background-image: url(../../The_Elements/Images/instrumentas1.png);
     width: 47.1rem;
     height: 97rem;
     top: -4rem;
@@ -4175,7 +4179,7 @@ li {
 }
 
 .news__instrument--2 {
-    background-image: url(../images/instrumentas2.png);
+    background-image: url(../../The_Elements/Images/instrumentas2.png);
     width: 51.8rem;
     height: 88.5rem;
     left: 11.5rem;
@@ -4189,7 +4193,7 @@ li {
 }
 
 .news__instrument--teachers {
-    background-image: url(../images/instrumentas2-2.png);
+background-image: url(../../The_Elements/Images/instrumentas2-2.png);
     width: 76.4rem;
     height: 83.5rem;
     right: 15rem;
@@ -4206,7 +4210,7 @@ li {
 }
 
 .news__instrument--news {
-    background-image: url(../images/instrumentas2-3.png);
+    background-image: url(../../The_Elements/Images/instrumentas2-3.png);
     width: 71rem;
     height: 89rem;
     right: 31rem;
@@ -7965,7 +7969,7 @@ li {
 }
 
 .form__input--dropdown {
-    background-image: url(../svg/arrow-input.svg);
+    background-image: url(../../The_Elements/Images/svg/arrow-input.svg);
     background-size: 1rem .8rem;
     background-position: 98% center;
     background-repeat: no-repeat
@@ -8808,7 +8812,7 @@ li {
 
 .icheckbox.checked:before {
     content: '';
-    background-image: url(../svg/checkbox.svg);
+    background-image: url(../../The_Elements/Images/svg/checkbox.svg);
     background-size: cover;
     background-position: center;
     width: .7rem;
