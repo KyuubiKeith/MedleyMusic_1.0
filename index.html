@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Medley Music School</title>
+    <title>Medley Music School | Home</title>
 
     <!-- Meta Data -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,11 +16,12 @@
     <meta name="description" content="(Medley Music School)" />
 
     <!-- Favicons -->
-    <link rel="icon" sizes="144x144" href="Artista\The_Elements\Images\Favicon\guitar_black.png">
-    <link rel="icon" sizes="114x114" href="Artista\The_Elements\Images\Favicon\guitar_black.png">
-    <link rel="icon" sizes="72x72" href="Artista\The_Elements\Images\Favicon\iguitar_black.png">
-    <link rel="icon" sizes="57x57" href="Artista\The_Elements\Images\Favicon\guitar_black.png">
-    <link rel="shortcut icon" href="Artista\The_Elements\Images\Favicon\guitar_black.png" type="image/png">
+    <!-- Favicons -->
+    <link rel="icon" sizes="144x144" href="Artista\The_Elements\Images\Favicon\guitar64.png">
+    <link rel="icon" sizes="114x114" href="Artista\The_Elements\Images\Favicon\guitar64.png">
+    <link rel="icon" sizes="72x72" href="Artista\The_Elements\Images\Favicon\guitar64.png">
+    <link rel="icon" sizes="57x57" href="Artista\The_Elements\Images\Favicon\guitar.png">
+    <link rel="shortcut icon" href="Artista\The_Elements\Images\Favicon\guitar.png" type="image/png">
 
 
     <!-- Styles -->
@@ -123,16 +124,16 @@
                                 <span>GO BACK</span>
                             </div>
                             <li class="nav__sublist-item">
-                                <a asp-page="about.html" class="nav__sublist-link">ABOUT</a>
+                                <a href="Medley_Music/About.html"  class="nav__sublist-link">ABOUT</a>
                             </li>
                             <li class="nav__sublist-item">
-                                <a asp-page="theStrings.html"  class="nav__sublist-link">THE STRINGS</a>
+                                <a href="Courses/Courses.html"  class="nav__sublist-link">COURSES</a>
                             </li>
                             <li class="nav__sublist-item">
-                                <a asp-page="FAQ.html" class="nav__sublist-link">F.A.Q</a>
+                                <a href="Medley_Music/FAQ.html"  class="nav__sublist-link">F.A.Q</a>
                             </li>
                             <li class="nav__sublist-item">
-                                <a href="contact.html" class="nav__sublist-link">CONTACT</a>
+                                <a href="Medley_Music/Contact.html" class="nav__sublist-link">CONTACT</a>
                             </li>
                         </ul>
                         <!--  Hiddden Menu -->
@@ -141,7 +142,7 @@
 
                     <!-- Menu Body -->
                     <li class="nav__list-item">
-                        <a href="Instruments/piano.html" class="nav__list-link">PIANO</a>
+                        <a href="Instruments/Piano.html" class="nav__list-link">PIANO</a>
                     </li>
 
                     <li class="nav__list-item">
@@ -149,22 +150,20 @@
                     </li>
 
                     <li class="nav__list-item">
-                        <a href="Courses/production.html" class="nav__list-link">PRODUCTION</a>
+                            <a href="Instruments/Violin.html" class="nav__list-link">VIOLIN</a>
                     </li>
 
                     <li class="nav__list-item">
-                        <a href="Courses/djSchool.html" class="nav__list-link">DJ SCHOOL</a>
+                        <a href="Courses/Voice.html" class="nav__list-link">VOICE COACHING</a>
                     </li>
 
                     <li class="nav__list-item">
-                        <a href="Courses/voice.html" class="nav__list-link">VOICE COACHING</a>
+                            <a href="Courses/Disk_Jockey.html" class="nav__list-link">DJ SCHOOL</a>
                     </li>
 
                     <li class="nav__list-item">
-                        <a href="Instruments/violin.html" class="nav__list-link">VIOLIN</a>
-                    </li>
-
-                    
+                            <a href="Courses/Production.html" class="nav__list-link">PRODUCTION</a>
+                    </li>                    
                     <!-- Menu Body -->
 
                 </ul>
@@ -282,269 +281,264 @@
     <!-- Page Content Container -->
     <div class="page" data-page="">
 
-        <!-- Landing Background Video -->
-        <section class="section section--header">
-            <div class="home-video">
-                <div class="page__arrow-wrap" data-scroll-down="">
-                    <svg class="arrow-down" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 12 34">
-                        <defs>
-                            <style>
-                                .cls-down-1 {
-                                    fill: #343435;
-                                    stroke: #343435;
-                                    stroke-width: 0px;
-                                    fill-rule: evenodd;
-                                }
-                            </style>
-                        </defs>
-                        <path id="arrow_right" class="cls-down-1" d="M63.822,634h0.964v32H63.822V634Zm1.357,32.291-0.785-.582,4.822-7L70,659.291Zm-1.2.719,0.81-.615-4.977-7.4-0.81.615Z" transform="translate(-58.5 -633.5)"></path>
-                    </svg>
-                </div>
-                <div class="home-video__wrap">
-                    <div class="video-sound video-sound--active video-sound--hide">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="image-mobile" style="background:url( Artista\The_Elements\Images\Response\Responsive.png) no-repeat center center; background-size:cover;"></div>
-                    <video loop="" autoplay="" muted="" poster="Artista\The_Elements\Images\Response\LoopBack.png" class="mobile-hide">
-                        <source src="Artista\The_Elements\Videos\The_Clapback.mp4" type="video/mp4">
-                        <source src="" type="video/ogg">
-                        Your browser does not support the video tag
-                    </video>
-                    <audio class="audio">
-                        <source src="Artista/The_Elements/Audio/Frank Sinatra - The Way You Look Tonight.ogg" type="audio/ogg">
-                        <source src="Artista/The_Elements/Audio/Frank Sinatra - The Way You Look Tonight.MP3" type="audio/mpeg">
-                    </audio>
-                    <div class="home-video__text-wrap">
-                        <h1 class="home-video__title">Medley School Of Music</h1>
-
-                        <div class="home-video__days-counter-wrap clear">
-                            <div class="home-video__single-counter">
-                                <span class="home-video__counter-title">weeks</span>
-                                <span class="home-video__counter-number">2</span>
-                            </div>
-                            <div class="home-video__single-counter">
-                                <span class="home-video__counter-title">days</span>
-                                <span class="home-video__counter-number">1</span>
-                            </div>
-                            <div class="home-video__single-counter">
-                                <span class="home-video__counter-title">hours</span>
-                                <span class="home-video__counter-number">16</span>
-                            </div>
-                        </div>
-                        <a href="register.html" class="button button--home-video" style="text-decoration:none;">Join The Ensemble</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Landing Background Video -->
-
-        <!-- Landing Intro Video -->
-        <section class="section section--video">
-            <div class="close close--orange close--video-lightbox" data-close-video=""></div>
-            <div class="video" data-youtube-url="cd-_SQkaAh8">
-                <div class="video__placeholder" style="background-image: url(Artista\The_Elements\Images\Response\titulinis.png);"></div>
-                <div id="introvid"></div>
-                <div class="video__play-btn-wrap video__play-btn--youtube">
-                    <div class="video__play-btn">
-                        <svg class="play-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 18 24">
-                            <path d="M639,1032.5L622,1044v-23Z" transform="translate(-621.5 -1020.5)"></path>
+            <!-- Landing Background Video -->
+            <section class="section section--header">
+                <div class="home-video">
+                    <div class="page__arrow-wrap" data-scroll-down="">
+                        <svg class="arrow-down" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 12 34">
+                            <defs>
+                                <style>
+                                    .cls-down-1 {
+                                        fill: #343435;
+                                        stroke: #343435;
+                                        stroke-width: 0px;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path id="arrow_right" class="cls-down-1" d="M63.822,634h0.964v32H63.822V634Zm1.357,32.291-0.785-.582,4.822-7L70,659.291Zm-1.2.719,0.81-.615-4.977-7.4-0.81.615Z" transform="translate(-58.5 -633.5)"></path>
                         </svg>
                     </div>
-                    <span class="video__play__btn-text">Music On, World Off.</span>
+                    <div class="home-video__wrap">
+                        <div class="video-sound video-sound--active video-sound--hide">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="image-mobile" style="background:url( Artista\The_Elements\Images\Response\Responsive.png) no-repeat center center; background-size:cover;"></div>
+                        <video loop="" autoplay="" muted="" poster="Artista\The_Elements\Images\Response\LoopBack.png" class="mobile-hide">
+                            <source src="Artista\The_Elements\Videos\The_Clapback.mp4" type="video/mp4">
+                            <source src="" type="video/ogg">
+                            Your browser does not support the video tag
+                        </video>
+                        <audio class="audio">
+                            <source src="Artista/The_Elements/Audio/Frank Sinatra - The Way You Look Tonight.ogg" type="audio/ogg">
+                            <source src="Artista/The_Elements/Audio/Tonight.mp3" type="audio/mp3">
+                        </audio>
+                        <div class="home-video__text-wrap">
+                            <h1 class="home-video__title">Medley School Of Music</h1>
+    
+                            <!-- <div class="home-video__days-counter-wrap clear">
+                                <div class="home-video__single-counter">
+                                    <span class="home-video__counter-title">weeks</span>
+                                    <span class="home-video__counter-number">2</span>
+                                </div>
+                                <div class="home-video__single-counter">
+                                    <span class="home-video__counter-title">days</span>
+                                    <span class="home-video__counter-number">1</span>
+                                </div>
+                                <div class="home-video__single-counter">
+                                    <span class="home-video__counter-title">hours</span>
+                                    <span class="home-video__counter-number">16</span>
+                                </div>
+                            </div>-->
+                            <a href="register.html" class="button button--home-video" style="text-decoration:none;">Join The Ensemble</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!-- Landing Intro Video -->
-
-        <!-- Highlights Section -->
-        <section class="section">
-            <div class="highlights">
-                <!--<svg class="letters letters--h" viewbox="0 0 31.5 125.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <polygon points="10.1,22.8 21.4,22.8 21.4,125.9 31.5,125.9 31.5,0 21.4,0 21.4,8.7 10.1,8.7 10.1,0 0,0 0,125.9
-                    10.1,125.9 "></polygon>
-                </svg>
-                <svg class="letters letters--a" viewbox="0 0 31.5 125.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="M11,116.4h9.7l0.8,9.4h10.1L20.8,0h-9.9L0.4,122L0,125.9h10.1L11,116.4z M15.7,59.7l3.7,42.9h-7.3L15.7,59.7z"></path>
-                    <path d="M197.5,458.2h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6v74.5h9.7
+            </section>
+            <!-- Landing Background Video -->
+    
+            <!-- Landing Intro Video -->
+            <section class="section section--video">
+                <div class="close close--orange close--video-lightbox" data-close-video=""></div>
+                <div class="video" data-youtube-url="cd-_SQkaAh8">
+                    <div class="video__placeholder" style="background-image: url(Artista\The_Elements\Images\Response\titulinis.png);"></div>
+                    <div id="introvid"></div>
+                    <div class="video__play-btn-wrap video__play-btn--youtube">
+                        <div class="video__play-btn">
+                            <svg class="play-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 18 24">
+                                <path d="M639,1032.5L622,1044v-23Z" transform="translate(-621.5 -1020.5)"></path>
+                            </svg>
+                        </div>
+                        <span class="video__play__btn-text">Music On, World Off.</span>
+                    </div>
+                </div>
+            </section>
+            <!-- Landing Intro Video -->
+    
+            <!-- Highlights Section -->
+            <section class="section">
+                <div class="highlights">
+                    <!--<svg class="letters letters--h" viewbox="0 0 31.5 125.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <polygon points="10.1,22.8 21.4,22.8 21.4,125.9 31.5,125.9 31.5,0 21.4,0 21.4,8.7 10.1,8.7 10.1,0 0,0 0,125.9
+                        10.1,125.9 "></polygon>
+                    </svg>
+                    <svg class="letters letters--a" viewbox="0 0 31.5 125.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="M11,116.4h9.7l0.8,9.4h10.1L20.8,0h-9.9L0.4,122L0,125.9h10.1L11,116.4z M15.7,59.7l3.7,42.9h-7.3L15.7,59.7z"></path>
+                        <path d="M197.5,458.2h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6v74.5h9.7
+                            v-74.5c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3s-0.9-9.1-2.5-12.3
+                            c-2.4-4.8-5.8-7-8.4-8.2c-2.5-1-4.5-1-4.8-1h-15.7v125.9h9.7V458.2z M197.5,428.4h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
+                            c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V428.4z
+                            "></path>
+                    </svg>
+                    <svg class="letters letters--r" viewbox="0 0 31.5 125.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="M196.7,459.1h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6v74.5h9.7
                         v-74.5c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3s-0.9-9.1-2.5-12.3
-                        c-2.4-4.8-5.8-7-8.4-8.2c-2.5-1-4.5-1-4.8-1h-15.7v125.9h9.7V458.2z M197.5,428.4h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
-                        c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V428.4z
+                        c-2.4-4.8-5.8-7-8.4-8.2c-2.5-1-4.5-1-4.8-1H187v125.9h9.7V459.1z M196.7,429.2h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
+                        c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V429.2z
                         "></path>
-                </svg>
-                <svg class="letters letters--r" viewbox="0 0 31.5 125.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="M196.7,459.1h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6v74.5h9.7
-                    v-74.5c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3s-0.9-9.1-2.5-12.3
-                    c-2.4-4.8-5.8-7-8.4-8.2c-2.5-1-4.5-1-4.8-1H187v125.9h9.7V459.1z M196.7,429.2h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
-                    c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V429.2z
-                    "></path>
-                    <path d="M9.7,43.1h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6v74.5h9.7
-                        V51.4c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3S30.6,12.5,29,9.2
-                        c-2.4-4.8-5.8-7-8.4-8.2C18,0,16,0,15.7,0H0v125.9h9.7V43.1z M9.7,13.2h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
-                        c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V13.2z"></path>
-                </svg>
-                <svg class="letters letters--l" viewbox="0 0 31.5 124.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="M196.9,459.1h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6v74.5h9.7
-                    v-74.5c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3c0-4.8-0.9-9.1-2.5-12.3
-                    c-2.4-4.8-5.8-7-8.4-8.2c-2.5-1-4.5-1-4.8-1h-15.7v125.9h9.7V459.1z M196.9,429.3h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
-                    c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V429.3z
-                    "></path>
-                    <polygon points="31.5,112.2 10,112.2 10,0 0,0 0,124.9 31.5,124.9 "></polygon>
-                </svg>
-                <svg class="letters letters--e" viewbox="0 0 31.5 125.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="M196.9,459.1h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6V542h9.7
-                    v-74.5c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3c0-4.8-0.9-9.1-2.5-12.3
-                    c-2.4-4.8-5.8-7-8.4-8.2c-2.5-1-4.5-1-4.8-1h-15.7V542h9.7V459.1z M196.9,429.3h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
-                    c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V429.3z
-                    "></path>
-                    <polygon points="0,125.1 31.5,125.1 31.5,112.4 10.1,112.4 10.1,43.4 18.6,43.4 18.6,30.5 10.1,30.5 10.1,12.7
-                    31.5,12.7 31.5,0 0,0 "></polygon>
-                </svg>
-                <svg class="letters letters--m" viewbox="0 0 31.5 125.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <path d="M197.2,459.4h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6v74.5h9.7
-                    v-74.5c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3s-0.9-9.1-2.5-12.3
-                    c-2.4-4.8-5.8-7-8.4-8.2c-2.5-1-4.5-1-4.8-1h-15.7v125.9h9.7V459.4z M197.2,429.6h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
-                    c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V429.6z
-                    "></path>
-                    <polygon points="10.1,31 15.7,38.3 21.4,31 21.4,125.9 31.5,125.9 31.5,0 15.7,20.3 0,0 0,125.9 10.1,125.9 "></polygon>
-                </svg>-->
-
-                <h1 class="section-title section-title--highlights">Welcome To Medley</h1>
-                <div class="highlights__row highlights__row--first">
-                    <a href="piano.html" class="person-block person-block--highlights" data-open-modal="teacher-24">
-                        <div class="person-block__img-wrap">
-                            <div class="person-block__img" data-img="" style="background-image: url(  Artista/The_Elements/Images/dj.gif  )"></div>
-                        </div>
-                        <h2 class="person-block__title">Piano</h2>
-                        <div class="person-block__btn">ChordPhone<span></span></div>
-                    </a>
-                    <a href="#teacher-25" class="person-block person-block--highlights" data-open-modal="teacher-25">
-                        <div class="person-block__img-wrap">
-                            <div class="person-block__img" data-img="" style="background-image: url( Artista/The_Elements/Images/dj.gif )"></div>
-                        </div>
-                        <h2 class="person-block__title">Guitar</h2>
-                        <div class="person-block__btn">Strum some strings<span></span></div>
-                    </a>
-                    <a href="#teacher-19" class="person-block person-block--highlights" data-open-modal="teacher-19">
-                        <div class="person-block__img-wrap">
-                            <div class="person-block__img" data-img="" style="background-image: url( Artista/The_Elements/Images/dj.gif )"></div>
-                        </div>
-                        <h2 class="person-block__title">Violin</h2>
-                        <div class="person-block__btn">Explore Elegance<span></span></div>
-                    </a>
-                </div>
-                <div class="highlights__row highlights__row--second">
-                    <a href="#teacher-1" class="person-block person-block--highlights" data-open-modal="teacher-1">
-                        <div class="person-block__img-wrap">
-                            <div class="person-block__img" data-img="" style="background-image: url( Artista/The_Elements/Images/dj.gif )"></div>
-                        </div>
-                        <h2 class="person-block__title">Voice Coach</h2>
-                        <div class="person-block__btn">meet your Coach <span></span></div>
-                    </a>
-                    <a href="#teacher-20" class="person-block person-block--highlights" data-open-modal="teacher-20">
-                        <div class="person-block__img-wrap">
-                            <div class="person-block__img" data-img="" style="background-image: url( Artista/The_Elements/Images/dj.gif )"></div>
-                        </div>
-                        <h2 class="person-block__title">DJ School</h2>
-                        <div class="person-block__btn">Spin the Decks<span></span></div>
-                    </a>
-                    <a href="#teacher-40" class="person-block person-block--highlights" data-open-modal="teacher-40">
-                        <div class="person-block__img-wrap">
-                            <div class="person-block__img" data-img="" style="background-image: url( Artista/The_Elements/Images/dj.gif )"></div>
-                        </div>
-                        <h2 class="person-block__title">Production</h2>
-                        <div class="person-block__btn">Explore<span></span></div>
-                    </a>
-                </div>
+                        <path d="M9.7,43.1h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6v74.5h9.7
+                            V51.4c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3S30.6,12.5,29,9.2
+                            c-2.4-4.8-5.8-7-8.4-8.2C18,0,16,0,15.7,0H0v125.9h9.7V43.1z M9.7,13.2h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
+                            c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V13.2z"></path>
+                    </svg>
+                    <svg class="letters letters--l" viewbox="0 0 31.5 124.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="M196.9,459.1h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6v74.5h9.7
+                        v-74.5c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3c0-4.8-0.9-9.1-2.5-12.3
+                        c-2.4-4.8-5.8-7-8.4-8.2c-2.5-1-4.5-1-4.8-1h-15.7v125.9h9.7V459.1z M196.9,429.3h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
+                        c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V429.3z
+                        "></path>
+                        <polygon points="31.5,112.2 10,112.2 10,0 0,0 0,124.9 31.5,124.9 "></polygon>
+                    </svg>
+                    <svg class="letters letters--e" viewbox="0 0 31.5 125.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="M196.9,459.1h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6V542h9.7
+                        v-74.5c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3c0-4.8-0.9-9.1-2.5-12.3
+                        c-2.4-4.8-5.8-7-8.4-8.2c-2.5-1-4.5-1-4.8-1h-15.7V542h9.7V459.1z M196.9,429.3h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
+                        c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V429.3z
+                        "></path>
+                        <polygon points="0,125.1 31.5,125.1 31.5,112.4 10.1,112.4 10.1,43.4 18.6,43.4 18.6,30.5 10.1,30.5 10.1,12.7
+                        31.5,12.7 31.5,0 0,0 "></polygon>
+                    </svg>
+                    <svg class="letters letters--m" viewbox="0 0 31.5 125.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="M197.2,459.4h6c1.9,0,2.9,0.6,3.6,1.3c1,0.9,1.6,2.5,2,4.3c0.3,0.8,0.3,1.6,0.4,2.1c0,0.3,0,0.5,0,0.6v74.5h9.7
+                        v-74.5c0-0.6,0-5.2-1.9-10.4c-0.5-1.5-1.3-3-2.1-4.4c0.5-0.8,1-1.6,1.5-2.6c1.6-3.3,2.5-7.6,2.5-12.3s-0.9-9.1-2.5-12.3
+                        c-2.4-4.8-5.8-7-8.4-8.2c-2.5-1-4.5-1-4.8-1h-15.7v125.9h9.7V459.4z M197.2,429.6h6c0.4,0,2.3,0.4,3.5,1.4c0.8,0.6,1.3,1.3,1.8,2.1
+                        c0.4,1,0.8,2.3,0.8,4.8c0,2.6-0.4,4-0.9,4.9c-0.6,1.4-1.8,2.4-3.1,2.9c-0.6,0.3-1.1,0.4-1.5,0.4c-0.3,0.1-0.4,0.1-0.5,0.1h-6V429.6z
+                        "></path>
+                        <polygon points="10.1,31 15.7,38.3 21.4,31 21.4,125.9 31.5,125.9 31.5,0 15.7,20.3 0,0 0,125.9 10.1,125.9 "></polygon>
+                    </svg>-->
     
-    
-            </div>
-        </section>
-        <!-- Highlights Section -->
-
-        <!-- News Section -->
-        <section class="section">
-            <div class="news">
-                <div class="news__instrument news__instrument--1 flow"></div>
-                <div class="news__instrument news__instrument--2 flow"></div>
-                <h1 class="section-title">News</h1>
-                <div class="news__wrap clear">
-                    <a href="index.html" class="news-block">
-                        <div class="news-block__img-wrap">
-                            <div class="news-block__img" style="background-image: url( Artista/The_Elements/Images/dj.gif )"></div>
-                        </div>
-                        <div class="news-block__content">
-                            <h1 class="news-block__title">Website Online</h1>
-                            <p class="news-block__text"><p>The Website is now online. More pages still under construction&nbsp;</p></p>
-                            <svg class="arrow-right-svg" viewbox="0 0 33.5 9.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect y="4.5"></rect>
-                                <line fill="none" stroke-miterlimit="10" x1="28.2" y1="0.4" x2="33.2" y2="5.3"></line>
-                                <line fill="none" stroke-miterlimit="10" x1="28.2" y1="9.6" x2="33.1" y2="4.6"></line>
-                            </svg>
-                        </div>
-                    </a>
-                    <a href="index.html" class="news-block">
-                        <div class="news-block__img-wrap">
-                                <div class="news-block__img" style="background-image: url( Artista/The_Elements/Images/dj.gif )"></div>
-                        </div>
-                        <div class="news-block__content">
-                            <h1 class="news-block__title">Explore!</h1>
-                            <p class="news-block__text"><p>Information about Medley.</p></p>
-                            <svg class="arrow-right-svg" viewbox="0 0 33.5 9.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect y="4.5"></rect>
-                                <line fill="none" stroke-miterlimit="10" x1="28.2" y1="0.4" x2="33.2" y2="5.3"></line>
-                                <line fill="none" stroke-miterlimit="10" x1="28.2" y1="9.6" x2="33.1" y2="4.6"></line>
-                            </svg>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- News Section -->
+                    <h1 class="section-title section-title--highlights">Welcome To Medley</h1>
+                    <div class="highlights__row highlights__row--first">
+                        <a href="piano.html" class="person-block person-block--highlights" data-open-modal="teacher-24">
+                            <div class="person-block__img-wrap">
+                                <div class="person-block__img" data-img="" style="background-image: url(  Artista/The_Elements/Images/GIFs/piano.gif  )"></div>
+                            </div>
+                            <h2 class="person-block__title">Piano</h2>
+                            <div class="person-block__btn">ChordPhone<span></span></div>
+                        </a>
+                        <a href="#teacher-25" class="person-block person-block--highlights" data-open-modal="teacher-25">
+                            <div class="person-block__img-wrap">
+                                <div class="person-block__img" data-img="" style="background-image: url( Artista/The_Elements/Images/GIFs/strum.gif )"></div>
+                            </div>
+                            <h2 class="person-block__title">Guitar</h2>
+                            <div class="person-block__btn">Strum some strings<span></span></div>
+                        </a>
+                        <a href="#teacher-19" class="person-block person-block--highlights" data-open-modal="teacher-19">
+                            <div class="person-block__img-wrap">
+                                <div class="person-block__img" data-img="" style="background-image: url( Artista/The_Elements/Images/GIFs/source.gif )"></div>
+                            </div>
+                            <h2 class="person-block__title">Violin</h2>
+                            <div class="person-block__btn">Explore Elegance<span></span></div>
+                        </a>
+                    </div>
+                    <div class="highlights__row highlights__row--second">
+                        <a href="#teacher-1" class="person-block person-block--highlights" data-open-modal="teacher-1">
+                            <div class="person-block__img-wrap">
+                                <div class="person-block__img" data-img="" style="background-image: url( Artista/The_Elements/Images/GIFs/mic.gif )"></div>
+                            </div>
+                            <h2 class="person-block__title">Voice Coach</h2>
+                            <div class="person-block__btn">meet your Coach <span></span></div>
+                        </a>
+                        <a href="#teacher-20" class="person-block person-block--highlights" data-open-modal="teacher-20">
+                            <div class="person-block__img-wrap">
+                                <div class="person-block__img" data-img="" style="background-image: url( Artista/The_Elements/Images/GIFs/dj-spin.gif )"></div>
+                            </div>
+                            <h2 class="person-block__title">DJ School</h2>
+                            <div class="person-block__btn">Spin the Decks<span></span></div>
+                        </a>
+                        <a href="#teacher-40" class="person-block person-block--highlights" data-open-modal="teacher-40">
+                            <div class="person-block__img-wrap">
+                                <div class="person-block__img" data-img="" style="background-image: url( Artista/The_Elements/Images/GIFs/mic1.gif )"></div>
+                            </div>
+                            <h2 class="person-block__title">Production</h2>
+                            <div class="person-block__btn">Explore<span></span></div>
+                        </a>
+                    </div>
         
-        <!-- Partners Section -->
-        <section class="section section--footer">
-            <div class="partners">
-                <!--<div class="partners__row">
-                    <div class="partners__single-wrap">
-                        <a href="http://lindyhop.lt" target="_blank" title="Lindyhop" class="partners__single" style="background-image: url( https://harlem.lt/storage/app/uploads/public/5af/c2f/73d/5afc2f73de141705152240.png );"></a>
-                    </div>
-                    <div class="partners__single-wrap">
-                        <a href="http://www.legendosklubas.lt/lt/" target="_blank" title="Legendos" class="partners__single" style="background-image: url( https://harlem.lt/storage/app/uploads/public/5af/c2f/d28/5afc2fd28b3d8301333470.png );"></a>
-                    </div>
-                    <div class="partners__single-wrap">
-                        <a href="http://www.retrorent.lt/lt/masinos.php" target="_blank" title="Retro Rent" class="partners__single" style="background-image: url( https://harlem.lt/storage/app/uploads/public/5af/c37/1ed/5afc371ed1a6f673851512.png );"></a>
-                    </div> 
-                    <div class="partners__single-wrap">
-                        <a href="http://www.verocafe.lt/" target="_blank" title="Vero cafe" class="partners__single" style="background-image: url( https://harlem.lt/storage/app/uploads/public/5af/c30/26f/5afc3026f2688966505722.png );"></a>
-                    </div>
-                </div> -->
-                <div class="partners__row">
-                    <div class="partners__single-wrap">
-                        <a href="https://www.hedgehogcreative.net/" target="_blank" title="Corner Hotel" class="partners__single" style="background-image: url( Artista/The_Elements/Images/Hedgehog.jpg )"></a>
+        
+                </div>
+            </section>
+            <!-- Highlights Section -->
+    
+            <!-- News Section -->
+            <section class="section">
+                <div class="news">
+                    <div class="news__instrument news__instrument--1 flow"></div>
+                    <div class="news__instrument news__instrument--2 flow"></div>
+                    <h1 class="section-title">News</h1>
+                    <div class="news__wrap clear">
+                        <a href="index.html" class="news-block">
+                            <div class="news-block__img-wrap">
+                                <div class="news-block__img" style="background-image: url( Artista/The_Elements/Images/Fathers-Violin.png )"></div>
+                            </div>
+                            <div class="news-block__content">
+                                <h1 class="news-block__title">Website Online</h1>
+                                <p class="news-block__text"><p>The Website is now online. More pages still under construction&nbsp;</p></p>
+                                <svg class="arrow-right-svg" viewbox="0 0 33.5 9.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <rect y="4.5"></rect>
+                                    <line fill="none" stroke-miterlimit="10" x1="28.2" y1="0.4" x2="33.2" y2="5.3"></line>
+                                    <line fill="none" stroke-miterlimit="10" x1="28.2" y1="9.6" x2="33.1" y2="4.6"></line>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="index.html" class="news-block">
+                            <div class="news-block__img-wrap">
+                                    <div class="news-block__img" style="background-image: url( Artista/The_Elements/Images/Explore.png )"></div>
+                            </div>
+                            <div class="news-block__content">
+                                <h1 class="news-block__title">Explore!</h1>
+                                <p class="news-block__text"><p>Information about Medley.</p></p>
+                                <svg class="arrow-right-svg" viewbox="0 0 33.5 9.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <rect y="4.5"></rect>
+                                    <line fill="none" stroke-miterlimit="10" x1="28.2" y1="0.4" x2="33.2" y2="5.3"></line>
+                                    <line fill="none" stroke-miterlimit="10" x1="28.2" y1="9.6" x2="33.1" y2="4.6"></line>
+                                </svg>
+                            </div>
+                        </a>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Partners Section -->
-    
+            </section>
+            <!-- News Section -->
+            
+            <!-- Partners Section -->
+            <section class="section section--footer">
+                <div class="partners">
+                    <!--<div class="partners__row">
+                        <div class="partners__single-wrap">
+                            <a href="http://lindyhop.lt" target="_blank" title="Lindyhop" class="partners__single" style="background-image: url( https://harlem.lt/storage/app/uploads/public/5af/c2f/73d/5afc2f73de141705152240.png );"></a>
+                        </div>
+                        <div class="partners__single-wrap">
+                            <a href="http://www.legendosklubas.lt/lt/" target="_blank" title="Legendos" class="partners__single" style="background-image: url( https://harlem.lt/storage/app/uploads/public/5af/c2f/d28/5afc2fd28b3d8301333470.png );"></a>
+                        </div>
+                        <div class="partners__single-wrap">
+                            <a href="http://www.retrorent.lt/lt/masinos.php" target="_blank" title="Retro Rent" class="partners__single" style="background-image: url( https://harlem.lt/storage/app/uploads/public/5af/c37/1ed/5afc371ed1a6f673851512.png );"></a>
+                        </div> 
+                        <div class="partners__single-wrap">
+                            <a href="http://www.verocafe.lt/" target="_blank" title="Vero cafe" class="partners__single" style="background-image: url( https://harlem.lt/storage/app/uploads/public/5af/c30/26f/5afc3026f2688966505722.png );"></a>
+                        </div>
+                    </div> -->
+                    <div class="partners__row">
+                        <div class="partners__single-wrap">
+                            <a href="https://www.hedgehogcreative.net/" target="_blank" title="Corner Hotel" class="partners__single" style="background-image: url( Artista/The_Elements/Images/Hedgehog.jpg )"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Partners Section -->
+        
     </div>
-    <!-- Page Content Container -->
+        <!-- Page Content Container -->
 
-        <hr />
-        <footer>
-            <p>&copy; 2018 - MedleyMusicSchool_2._0</p>
-        </footer>
-
-        <!--  Scripts -->
-        <script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflxGrywa/www-widgetapi.js" async=""></script>
-        <script src="https://www.youtube.com/iframe_api"></script>
-        <script > baseHref = 'http://www.medleyschoolofmusic.co.ke'</script>
-        <script src="Artista\The_Styles\JavaScript\plugins.min.js" type="text/javascript" ></script>
-        <script src="Artista\The_Styles\JavaScript/frontend.min.js" type="text/javascript" ></script>
+    <!--  Scripts -->
+    <script type="text/javascript" id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflxGrywa/www-widgetapi.js" async=""></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script > baseHref = 'http://www.medleyschoolofmusic.co.ke'</script>
+    <script src="Artista\The_Styles\JavaScript\plugins.min.js" type="text/javascript" ></script>
+    <script src="Artista\The_Styles\JavaScript/frontend.min.js" type="text/javascript" ></script>
 
 
 </body>
