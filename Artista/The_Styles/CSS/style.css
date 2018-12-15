@@ -3545,15 +3545,39 @@ li {
 }
 
 .nav__socials .facebook-svg {
-    width: .8rem;
-    height: 1.8rem;
-    margin: .2rem auto 0 auto
+    width: 3.1rem;
+    height: 2.2rem
 }
 
 @media only screen and (max-width: 767px) {
     .nav__socials .facebook-svg {
-        width: 8px;
-        height: 18px
+        width: 31px;
+        height: 22px
+    }
+}
+
+.nav__socials .twitter-svg {
+    width: 3.1rem;
+    height: 2.2rem
+}
+
+@media only screen and (max-width: 767px) {
+    .nav__socials .twitter-svg {
+        width: 31px;
+        height: 22px
+    }
+}
+
+
+.nav__socials .email-svg {
+    width: 3.1rem;
+    height: 2.2rem
+}
+
+@media only screen and (max-width: 767px) {
+    .nav__socials .email-svg {
+        width: 31px;
+        height: 22px
     }
 }
 
@@ -3568,6 +3592,7 @@ li {
         height: 22px
     }
 }
+
 
 .nav__single-social {
     float: left;
