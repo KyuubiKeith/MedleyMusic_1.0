@@ -40,6 +40,37 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'OverlockSC';
+	src: url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/OverlockSC-Regular.otf');
+	src: local('☺'), url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/OverlockSC-Regular.woff') format('woff'),
+	 url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/OverlockSC-Regular.otf') format('opentype'),
+	 url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/OverlockSC-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Overlock';
+	src: url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/Overlock-Regular.ttf');
+	src: local('☺'), url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/Overlock-Regular.woff') format('woff'),
+	 url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/Overlock-Regular.ttf') format('truetype'),
+	 url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/Overlock-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OverlockBold';
+	src: url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/Overlock-Bold.ttf');
+	src: local('☺'), url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/Overlock-Bold.woff') format('woff'),
+	 url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/Overlock-Bold.ttf') format('truetype'),
+	 url('../../../The_Elements/Fonts/True_Type_Fonts/Overlock/Overlock-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 
 
 

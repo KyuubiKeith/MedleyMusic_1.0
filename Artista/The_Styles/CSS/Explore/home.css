@@ -16,17 +16,17 @@
 }
 
 .home header .logo:before {
-    background-image: url('../img/home/logoIcon.png')
+    background-image: url('../../../The_Elements/Images/Icons/Logos/Reroll.svg')
 }
 
 .home header .logo:after {
-    background-image: url('../img/home/logoText.png')
+    background-image: url('../../../The_Elements/Images/Icons/Logos/Music.svg')
 }
 
 .home section.intro .text .endIntro {
     font-size: 48px;
     text-transform: uppercase;
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     display: block
 }
 
@@ -240,7 +240,7 @@
 
 .home section.news .texts .date {
     width: 5px;
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     font-size: 16px;
     text-transform: uppercase;
     color: #0b6ca0;
@@ -352,7 +352,7 @@
     -o-transform: rotate(-12deg) translateX(-50px);
     -moz-transform: rotate(-12deg) translateX(-50px);
     transform: rotate(-12deg) translateX(-50px);
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     font-size: 20px;
     color: #177fb6;
     -webkit-transition: all .4s ease-out .1s;
@@ -619,11 +619,11 @@
 .home section.cours .text p:first-child {
     font-size: 13px;
     line-height: 17px;
-    font-family: "Manga_Bold"
+    font-family: "Overlock"
 }
 
 .home section.cours .text p.subtitle {
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     font-size: 16px;
     text-align: center;
     color: #177fb6;
@@ -771,7 +771,7 @@
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-    font-family: 'Manga_Bold';
+    font-family: 'Overlock';
     font-size: 13px;
     line-height: 14px;
     color: #FFF;
@@ -814,7 +814,7 @@
 }
 
 .home section.prochainement .actu .text .content .baseline {
-    font-family: 'Manga_Regular';
+    font-family: 'OverlockSC';
     font-size: 16px;
     line-height: 16px;
     color: #c2cc96;

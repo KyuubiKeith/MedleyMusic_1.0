@@ -1287,7 +1287,7 @@ li {
 .section-title {
     font-size: 6rem;
     line-height: 1;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     font-weight: 300;
     color: #434343;
     text-transform: uppercase;
@@ -1494,7 +1494,7 @@ li {
     font-size: 3rem;
     line-height: 4.2rem;
     color: #434343;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     font-weight: 300;
     letter-spacing: .6rem;
     text-transform: uppercase;
@@ -1671,7 +1671,7 @@ li {
     font-size: 3rem;
     line-height: 4.2rem;
     color: #434343;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     font-weight: 300;
     letter-spacing: .6rem;
     text-transform: uppercase;
@@ -1845,7 +1845,7 @@ li {
     color: #434343;
     text-transform: uppercase;
     letter-spacing: .6rem;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     font-weight: 300;
     margin: 2.5rem 0
 }
@@ -3266,7 +3266,7 @@ li {
     font-size: 6rem;
     line-height: 4rem;
     height: 5rem;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     font-weight: 300;
     color: #434343;
     text-transform: uppercase;
@@ -3655,7 +3655,7 @@ li {
     font-size: 2.4rem;
     line-height: 1;
     color: #fff;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     text-transform: uppercase;
     letter-spacing: .6rem;
     text-decoration: none;
@@ -4758,7 +4758,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
 
 .modal__classes-mobile {
     display: none;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     font-weight: 300;
     font-size: 30px;
     line-height: 1;
@@ -5026,7 +5026,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
     .modal__show-day {
         font-size: 30px;
         margin-top: 0;
-        font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+        font-family: "OverlockBold", sans-serif, helvetica;
         font-weight: 300;
         letter-spacing: 3px;
         line-height: 1;
@@ -5062,7 +5062,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
     .modal__show-month {
         font-size: 30px;
         margin-top: 0;
-        font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+        font-family: "OverlockBold", sans-serif, helvetica;
         font-weight: 300;
         line-height: 1;
         color: #cd9c5f;
@@ -5680,7 +5680,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
     font-size: 4rem;
     line-height: 4.8rem;
     color: #cd9c5f;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: .8rem;
@@ -6253,7 +6253,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
     color: #cd9c5f;
     letter-spacing: .8rem;
     text-transform: uppercase;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     font-weight: 300;
     margin: 0 0 2.5rem 0
 }
@@ -6410,7 +6410,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
     .checkin__single-day {
         font-size: 60px;
         letter-spacing: 6px;
-        font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+        font-family: "OverlockBold", sans-serif, helvetica;
         font-weight: 300;
         margin-bottom: 15px;
         margin-top: -12px
@@ -6684,7 +6684,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
     color: #434343;
     letter-spacing: .6rem;
     font-weight: 300;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     text-transform: uppercase;
     margin: 2rem 0 1rem 0
 }
@@ -7243,7 +7243,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
 .news-inner__title {
     font-size: 6rem;
     color: #cd9c5f;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     font-weight: 300;
     letter-spacing: 1.2rem;
     margin-top: 4rem;
@@ -7862,7 +7862,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
     .form__title {
         font-size: 30px;
         line-height: 36px;
-        font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+        font-family: "OverlockBold", sans-serif, helvetica;
         font-weight: 300;
         margin-bottom: 30px;
         letter-spacing: 6px;
@@ -8978,7 +8978,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
         font-size: 50px;
         line-height: 60px;
         letter-spacing: 10px;
-        font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+        font-family: "OverlockBold", sans-serif, helvetica;
         font-weight: 300;
         padding: 4px 0 13px 0
     }
@@ -9080,7 +9080,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
         font-size: 30px;
         letter-spacing: 6px;
         margin-bottom: 25px;
-        font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+        font-family: "OverlockBold", sans-serif, helvetica;
         font-weight: 300
     }
 }
@@ -9465,7 +9465,7 @@ background-image: url(../../../The_Elements/Images/Icons/SVGs/sold-out.svg/instr
 .parties__title {
     font-size: 4rem;
     line-height: 4.8rem;
-    font-family: "Mighty-Zeo-Caps", sans-serif, helvetica;
+    font-family: "OverlockBold", sans-serif, helvetica;
     font-weight: 300;
     color: #cd9c5f;
     letter-spacing: .8rem;

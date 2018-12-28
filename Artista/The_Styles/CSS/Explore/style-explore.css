@@ -282,7 +282,7 @@ section {
 section>h2 {
     padding-top: 20px;
     overflow: hidden;
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     font-size: 52px;
     text-align: center;
     margin-bottom: 52px;
@@ -503,7 +503,7 @@ section>h2 span:nth-child(29) {
 }
 
 section .title {
-    font-family: "Manga_Regular";
+    font-family: "OverlockBold";
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 20px
@@ -539,7 +539,7 @@ section .description p {
 #contact .button,
 section .button {
     position: relative;
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     font-size: 11px;
     display: inline-block;
     text-transform: uppercase;
@@ -639,7 +639,7 @@ section.intro .text {
     position: absolute;
     top: 50%;
     width: 100%;
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     color: #FFF;
     font-size: 140px;
     text-align: center;
@@ -714,7 +714,7 @@ section.intro .text {
 section.intro .text h1 {
     font-size: 90px;
     text-transform: uppercase;
-    font-family: "Manga_Regular"
+    font-family: "OverlockSC"
 }
 
 @-moz-document url-prefix() {
@@ -758,7 +758,7 @@ section.presentation .presentationContainer {
     color: #fff;
     font-size: 34px;
     line-height: 40px;
-    font-family: "Manga_Bold"
+    font-family: "Overlock"
 }
 
 section.presentation p {
@@ -1232,7 +1232,7 @@ section.presentation.visible span {
     right: 20px;
     top: 85px;
     color: #f2563d;
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     text-transform: uppercase;
     cursor: pointer
 }
@@ -1240,7 +1240,7 @@ section.presentation.visible span {
 #credits h2 {
     color: #f2563d;
     margin-top: 70px;
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     font-size: 80px;
     text-align: center;
     margin-bottom: 40px;
@@ -1249,7 +1249,7 @@ section.presentation.visible span {
 
 #credits h3 {
     position: relative;
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     font-style: italic;
     color: #666;
     text-align: center;
@@ -1303,7 +1303,7 @@ section.presentation.visible span {
     font-size: 15px;
     line-height: 20px;
     color: #666;
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     text-align: left
 }
 
@@ -1334,7 +1334,7 @@ section.presentation.visible span {
 }
 
 #credits .bloc .blocTitle {
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     font-size: 18px;
     color: #343434;
     margin-bottom: 15px;
@@ -1416,7 +1416,7 @@ section.presentation.visible span {
     right: 20px;
     top: 85px;
     color: #0b6ca0;
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     text-transform: uppercase;
     cursor: pointer;
     z-index: 5
@@ -1428,7 +1428,7 @@ section.presentation.visible span {
     width: 100%;
     line-height: 70px;
     text-align: center;
-    font-family: "Manga_Bold"
+    font-family: "Overlock"
 }
 
 #contact .contactContainer {
@@ -1472,7 +1472,7 @@ section.presentation.visible span {
 #contact h3 {
     line-height: 70px;
     color: #0b6ca0;
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     font-size: 70px;
     text-align: center;
     margin-bottom: 25px;
@@ -1493,13 +1493,13 @@ section.presentation.visible span {
     font-size: 15px;
     line-height: 20px;
     color: #666;
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     width: 490px;
     display: inline-block
 }
 
 #contact .bloc .blocTitle {
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     font-size: 18px;
     color: #343434;
     margin-bottom: 15px;
@@ -1611,7 +1611,7 @@ section.presentation.visible span {
 #contact .buttonMessageContainer .errorMessage,
 #contact .buttonMessageContainer .successMessage {
     display: none;
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     font-size: 20px
 }
 
@@ -1808,11 +1808,11 @@ header .logo .logoRoll[data-link='temoignages']:after {
 }
 
 header .logo .logoRoll[data-link='medias']:before {
-    background-image: url('../img/medias/logoIcon.png')
+    background-image: url('../../../The_Elements/Images/Icons/Logos/Logo.png')
 }
 
 header .logo .logoRoll[data-link='medias']:after {
-    background-image: url('../img/medias/logoText.png')
+    background-image: url('../../../The_Elements/Images/Icons/Logos/Logo.png')
 }
 
 header ul {
@@ -1828,7 +1828,7 @@ header ul li {
     line-height: 45px;
     width: 15%;
     display: inline-block;
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     color: #FFF;
     text-align: center;
     font-size: 10px
@@ -2081,7 +2081,7 @@ footer .pictoytb {
 }
 
 footer h4 {
-    font-family: "Manga_Bold";
+    font-family: "Overlock";
     font-size: 18px;
     margin-bottom: 22px
 }
@@ -2131,7 +2131,7 @@ footer p h4 {
     right: 20px;
     top: 20px;
     color: #fa9f19;
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     text-transform: uppercase;
     cursor: pointer
 }
@@ -2150,7 +2150,7 @@ footer p h4 {
     bottom: 100%;
     margin-bottom: 40px;
     color: #fff;
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     text-transform: uppercase;
     font-size: 16px
 }
@@ -2172,7 +2172,7 @@ footer p h4 {
     bottom: 100%;
     margin-bottom: 40px;
     color: #fff;
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     text-transform: uppercase;
     font-size: 10px
 }
@@ -2261,7 +2261,7 @@ footer p h4 {
     top: 100%;
     margin-top: 40px;
     color: #f4b251;
-    font-family: "Manga_Regular";
+    font-family: "OverlockSC";
     text-decoration: underline;
     font-size: 11px;
     line-height: 30px
