@@ -519,7 +519,7 @@ section .title {
 section .description {
     font-size: 11px;
     line-height: 15px;
-    font-family: "Zeo"
+    font-family: "Overlock"
 }
 
 section .description p {
@@ -707,7 +707,7 @@ section.transition .content {
 
 section.intro .text {
     font-size: 24px;
-    font-family: "Zeo";
+    font-family: "Overlock";
     margin-top: -61px
 }
 
@@ -1736,7 +1736,7 @@ header .logo:after {
     top: 0;
     width: 145px;
     height: 145px;
-    background: url('../img/home/logoIcon.png') center no-repeat;
+    background: url('The_Elements/Images/Icons/Logos/Logo.png') center no-repeat;
     background-size: 72px
 }
 
@@ -1858,7 +1858,7 @@ header ul li a:after {
     margin-left: -13px;
     bottom: 50%;
     margin-bottom: -25px;
-    background: url('../../../The_Elements/Images/Common/nav_switch.png');
+    background: url('../../../The_Elements/Images/Common/puff.svg');
     background-size: 26px
 }
 
@@ -2020,7 +2020,7 @@ footer {
     background: url('../../../The_Elements/Images/Common/footer_texture.jpg') top #000;
     background-repeat: repeat-x;
     color: #FFF;
-    font-family: "Zeo";
+    font-family: "Overlock";
     font-size: 12px;
     vertical-align: bottom;
     text-align: center;

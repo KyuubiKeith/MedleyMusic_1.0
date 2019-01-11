@@ -3030,8 +3030,38 @@ li {
     text-align: center
 }
 
+.head__logo {
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    text-align: center;
+    width: 500px
+}
+
 @media only screen and (max-width: 767px) {
-    .header__logo {
+    .head__logo {
+        width: 250px
+    }
+}
+
+.head__logo .logo-svg {
+    width: 530px;
+    height: 550px;
+    fill: #231f20;
+    display: block
+}
+
+@media only screen and (max-width: 767px) {
+    .head__logo .logo-svg {
+        width: 260px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .head__logo {
         width: 250px
     }
 }
@@ -3045,7 +3075,7 @@ li {
 
 @media only screen and (max-width: 767px) {
     .header__logo .logo-svg {
-        width: 260px;
+        width: 370px;
         height: 100px;
     }
 }
